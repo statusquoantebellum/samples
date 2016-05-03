@@ -11,9 +11,13 @@ PLUGINS="\
  vim-airline/vim-airline\
  vim-airline/vim-airline-themes\
  scrooloose/nerdcommenter\
+ scrooloose/nerdtree\
  ctrlpvim/ctrlp.vim\
  airblade/vim-gitgutter\
 "
 WORKDIR=$(dirname $0)
+if [ -n $WORKDIR ]; then
+	WORKDIR="${WORKDIR}/"
+fi
 
-"$WORKDIR/get_plugins.sh" $PLUGINS
+"${WORKDIR}get_plugins.sh" $PLUGINS

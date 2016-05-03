@@ -30,6 +30,7 @@ get(){
 
 mkdir -p $AUTOLOAD
 mkdir -p $BUNDLE
+mkdir -p $COLORS
 
 curl -LSso $AUTOLOAD/pathogen.vim https://raw.githubusercontent.com/tpope/vim-pathogen/master/autoload/pathogen.vim
 curl -LSso $COLORS/molokai.vim https://raw.githubusercontent.com/tomasr/molokai/master/colors/molokai.vim
