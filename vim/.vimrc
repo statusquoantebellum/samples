@@ -1,3 +1,5 @@
+execute pathogen#infect()
+
 set autoindent
 set autoread
 set backspace=indent,eol,start
@@ -17,3 +19,7 @@ set tabstop=4
 
 "highlight CursorLine ctermbg=DarkYellow ctermfg=Black
 syntax on
+"syntax enable
+colors molokai
+let g:molokai_original = 1
+let g:rehash256 = 1
