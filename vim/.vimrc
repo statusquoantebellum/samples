@@ -3,7 +3,7 @@ execute pathogen#infect()
 set autoindent
 set autoread
 set backspace=indent,eol,start
-"set cursorline
+set cursorline
 set encoding=utf8
 set hlsearch
 set incsearch
@@ -17,7 +17,7 @@ set showmatch
 set smartindent
 set tabstop=4
 
-"highlight CursorLine ctermbg=DarkYellow ctermfg=Black
+highlight CursorLine ctermbg=Black
 syntax on
 "syntax enable
 colors molokai
