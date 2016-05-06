@@ -5,6 +5,7 @@ set autoread
 set backspace=indent,eol,start
 set cursorline
 set encoding=utf8
+set expandtab
 set hlsearch
 set incsearch
 set list lcs=tab:→\ ,space:·,trail:·,extends:…,precedes:…
@@ -13,6 +14,7 @@ set noerrorbells
 set novisualbell
 set number
 set ruler
+set shiftwidth=4
 set showmatch
 set smartindent
 set tabstop=4
