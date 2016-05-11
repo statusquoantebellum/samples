@@ -18,5 +18,10 @@ alias du='du --human-readable'
 
 alias psgrep='ps -ef | grep -v grep | grep -e ''UID.*CMD'' -e'
 
+#
+# format x1z means heXadecimal, one byte size, and z - display printable characters
+#
+alias hexdump='od --address-radix x --format x1z --output-duplicates'
+
 alias install='sudo apt-get install'
 
