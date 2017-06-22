@@ -19,7 +19,7 @@ set showmatch
 set smartindent
 set tabstop=4
 
-highlight CursorLine ctermbg=Black
+"highlight CursorLine ctermbg=DarkYellow
 syntax on
 "syntax enable
 colors molokai
